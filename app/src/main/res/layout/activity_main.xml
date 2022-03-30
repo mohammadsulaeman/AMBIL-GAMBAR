@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imagePicture"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:src="@drawable/ic_baseline_image_24"/>
+
+    <Button
+        android:id="@+id/btn_image_take"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imagePicture"
+        android:layout_centerHorizontal="true"
+        android:text="Ambil Gambar"
+        android:textSize="20sp"/>
+</RelativeLayout>
